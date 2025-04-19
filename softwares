@@ -1,4 +1,10 @@
 organization: notion/drive
-UI: SeelenUI/windhawk
 reading: kindle/kotatsu
 studies: anki, vscode, visual studio (some notes are made in notion)
+
+win11:
+UI: SeelenUI/Windhawk
+music: spicetify (spotify themer)
+windows Theme Engine: UltraUxThemePatcher
+theme: https://www.deviantart.com/niivu/art/Everblush-for-Windows-11-944291961
+wallpaper: wallpaper engine
