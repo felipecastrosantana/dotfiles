@@ -8,3 +8,7 @@ music: spicetify (spotify themer)
 windows Theme Engine: UltraUxThemePatcher
 theme: https://www.deviantart.com/niivu/art/Everblush-for-Windows-11-944291961
 wallpaper: wallpaper engine
+windhawk taskbar config:
+  - icon size: 25px
+  - height: 32px
+  - width: 28px
