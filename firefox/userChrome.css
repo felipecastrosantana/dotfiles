@@ -1,111 +1,93 @@
-html {
-  --custom-bg: #f5f5f5;
+#root.root {--tabs-indent: 0px;}
+#root.root {--general-border-radius: 4px;}
+#root.root {--toolbar-bg: ##dcdcdc;}
+#root.root {--frame-bg: #dcdcdc;}
+#root.root {--tabs-height: 32px;}
+#root.root {--tabs-margin: 6px;}
+#root.root {--pinned-tabs-col: 4;}
+#root.root {
+  flex-direction: column;
 }
 
-body {
-  background: var(--custom-bg) !important;
+.NavigationBar .main-items {
+    justify-content: center;
 }
 
-html:not([privatebrowsingmode="temporary"]) #navigator-toolbox {
-  padding-top: 3px;
-  padding-bottom: 4px;
-  background: var(--custom-bg) !important;
-  border-bottom: 0 !important;
+.Tab {
+    min-width: 33px;
+    transition: all ease-in-out 200ms;
 }
 
-#nav-bar {
-  background: var(--custom-bg) !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: calc(100% - 20px);
+.NavigationBar {
+    transition: all ease-in-out 200ms;
 }
 
-/* Ensure icons are centered within the nav-bar */
-#nav-bar > .nav-bar-inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.NavigationBar[data-layout="inline"] .main-items .nav-item {
+    transform: translateX(0) !important;
+    position: relative !important;
+    flex-grow: 1;
+    max-width: 66px;
 }
 
-html:not([privatebrowsingmode="temporary"]) #sidebar-box {
-  background: var(--custom-bg) !important;
+.NavigationBar[data-layout="inline"] .main-items .nav-item[data-active="false"] {
+    display: none;
 }
 
-html:not([privatebrowsingmode="temporary"]) #sidebar-splitter {
-  border: none !important;
-  background: transparent !important;
-  width: 1px !important;
+.BottomBar {
+    display: none;
 }
 
-html:not([privatebrowsingmode="temporary"]) #TabsToolbar {
-  visibility: collapse !important;
+.Tab .audio, .Tab .title {
+    opacity: 0 !important;
+    transition: ease-in-out 250ms;
 }
 
-#TabsToolbar {
-  background: var(--custom-bg) !important;
+.Tab[data-pin="true"] .fav, .Tab[data-pin="true"] .fav-icon {
+    width: 20px;
+    height: 20px;
 }
 
-html:not([privatebrowsingmode="temporary"]) .titlebar-buttonbox-container {
-  position: absolute;
-  right: 0;
-  top: 9px;
-  display: none;
-  justify-content: center;
-  width: 110px !important;
+.Tab[data-pin="false"] .fav, .Tab[data-pin="false"] .fav-icon {
+    width: 18px;
+    height: 18px;
 }
 
-.titlebar-button {
-  width: 36px !important;
+.Tab[data-pin="true"][data-active="true"] .color-layer {
+   background-color: #ffffff !important;
 }
 
-html:not([privatebrowsingmode="temporary"]) #sidebar-header {
-  display: none;
+.Tab[data-pin="false"] .color-layer {
+    opacity: 0 !important;
+    border: 0 !important;
 }
 
-#identity-icon-label {
-  display: none;
+.Tab[data-pin="false"][data-active="true"] .body {
+    box-shadow: rgba(17, 17, 26, 0.15) 0px 0px 16px;
 }
 
-#urlbar {
-  left: 50% !important;
-  transform: translateX(-50%);
-  max-width: 960px !important;
+.Tab[data-pin="false"] {
+    border: 0 !important;
 }
 
-#urlbar:not([breakout-extend]) #urlbar-background {
-  background: none !important;
-  background-color: transparent !important;
+.Tab .title {
+	background: linear-gradient(90deg, var(--tabs-normal-fg) 80%, #f1f1f100 99%);
+	background-clip: text;
+	color: transparent;
 }
 
-html:not([privatebrowsingmode="temporary"]) #sidebar-box {
-  --uc-sidebar-width: 60px;
-  --uc-sidebar-hover-width: 360px;
-  position: relative;
-  min-width: var(--uc-sidebar-width) !important;
-  width: var(--uc-sidebar-width) !important;
-  max-width: var(--uc-sidebar-width) !important;
-  z-index: 4 !important;
-}
-
-html:not([privatebrowsingmode="temporary"]) #main-window[sizemode="fullscreen"] #sidebar-box {
-  --uc-sidebar-width: 1px;
-}
-
-html:not([privatebrowsingmode="temporary"]) #sidebar-splitter {
-  display: none;
-}
-
-html:not([privatebrowsingmode="temporary"]) #sidebar {
-  min-width: var(--uc-sidebar-width) !important;
-}
-
-html:not([privatebrowsingmode="temporary"]) #sidebar-box:hover > #sidebar {
-  min-width: var(--uc-sidebar-hover-width) !important;
-}
-
-html:not([privatebrowsingmode="temporary"]) .sidebar-panel {
-  background-color: transparent !important;
-  color: var(--newtab-text-primary-color) !important;
+@media screen and (min-width: 350px) {
+  .NavigationBar[data-layout="inline"] .main-items .nav-item[data-active="false"] {
+      display: flex;
+  }
+  .BottomBar {
+      display: flex;
+  }
+  #root.root {
+      --tabs-indent: 14px;
+  }
+  .Tab .audio, .Tab .title {
+      opacity: 1 !important;
+  }
+  #root.root {--tabs-pinned-height: 40px;}
+  #root.root {--tabs-pinned-width: calc((100vw - (var(--tabs-margin) * (var(--pinned-tabs-col) + 1))) / var(--pinned-tabs-col));}
 }
