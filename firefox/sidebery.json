@@ -1,1 +1,111 @@
-{"containers":{"firefox-container-1":{"id":"firefox-container-1","cookieStoreId":"firefox-container-1","name":"Personal","icon":"fingerprint","color":"blue","colorCode":"#37adff","proxified":false,"proxy":null,"reopenRulesActive":false,"reopenRules":[],"userAgentActive":false,"userAgent":""},"firefox-container-2":{"id":"firefox-container-2","cookieStoreId":"firefox-container-2","name":"Work","icon":"briefcase","color":"orange","colorCode":"#37adff","proxified":false,"proxy":null,"reopenRulesActive":false,"reopenRules":[],"userAgentActive":false,"userAgent":""},"firefox-container-3":{"id":"firefox-container-3","cookieStoreId":"firefox-container-3","name":"Banking","icon":"dollar","color":"green","colorCode":"#37adff","proxified":false,"proxy":null,"reopenRulesActive":false,"reopenRules":[],"userAgentActive":false,"userAgent":""},"firefox-container-4":{"id":"firefox-container-4","cookieStoreId":"firefox-container-4","name":"Shopping","icon":"cart","color":"pink","colorCode":"#37adff","proxified":false,"proxy":null,"reopenRulesActive":false,"reopenRules":[],"userAgentActive":false,"userAgent":""}},"settings":{"nativeScrollbars":true,"nativeScrollbarsThin":true,"nativeScrollbarsLeft":false,"selWinScreenshots":false,"updateSidebarTitle":true,"markWindow":false,"markWindowPreface":"[Sidebery] ","ctxMenuNative":false,"ctxMenuRenderInact":true,"ctxMenuRenderIcons":true,"ctxMenuIgnoreContainers":"","navBarLayout":"horizontal","navBarInline":true,"navBarSide":"left","hideAddBtn":false,"hideSettingsBtn":false,"navBtnCount":true,"hideEmptyPanels":true,"hideDiscardedTabPanels":false,"navActTabsPanelLeftClickAction":"none","navActBookmarksPanelLeftClickAction":"none","navTabsPanelMidClickAction":"discard","navBookmarksPanelMidClickAction":"none","navSwitchPanelsWheel":true,"subPanelRecentlyClosedBar":true,"subPanelBookmarks":true,"subPanelHistory":true,"groupLayout":"grid","containersSortByName":false,"skipEmptyPanels":false,"dndTabAct":true,"dndTabActDelay":750,"dndTabActMod":"none","dndExp":"pointer","dndExpDelay":750,"dndExpMod":"none","dndOutside":"win","dndActTabFromLink":true,"dndActSearchTab":true,"dndMoveTabs":false,"dndMoveBookmarks":false,"searchBarMode":"dynamic","searchPanelSwitch":"same_type","searchBookmarksShortcut":"","searchHistoryShortcut":"","warnOnMultiTabClose":"collapsed","activateLastTabOnPanelSwitching":true,"activateLastTabOnPanelSwitchingLoadedOnly":true,"switchPanelAfterSwitchingTab":"always","tabRmBtn":"hover","activateAfterClosing":"next","activateAfterClosingStayInPanel":false,"activateAfterClosingGlobal":false,"activateAfterClosingNoFolded":true,"activateAfterClosingNoDiscarded":true,"askNewBookmarkPlace":true,"tabsRmUndoNote":true,"tabsUnreadMark":false,"tabsUpdateMark":"all","tabsUpdateMarkFirst":true,"tabsReloadLimit":5,"tabsReloadLimitNotif":true,"showNewTabBtns":true,"newTabBarPosition":"after_tabs","tabsPanelSwitchActMove":false,"tabsPanelSwitchActMoveAuto":true,"tabsUrlInTooltip":"full","newTabCtxReopen":false,"tabWarmupOnHover":true,"tabSwitchDelay":0,"moveNewTabPin":"start","moveNewTabParent":"last_child","moveNewTabParentActPanel":false,"moveNewTab":"end","moveNewTabActivePin":"start","pinnedTabsPosition":"panel","pinnedTabsList":false,"pinnedAutoGroup":false,"pinnedNoUnload":false,"pinnedForcedDiscard":false,"tabsTree":true,"groupOnOpen":true,"tabsTreeLimit":"none","autoFoldTabs":false,"autoFoldTabsExcept":"none","autoExpandTabs":false,"autoExpandTabsOnNew":false,"rmChildTabs":"folded","tabsLvlDots":true,"discardFolded":false,"discardFoldedDelay":0,"discardFoldedDelayUnit":"sec","tabsTreeBookmarks":true,"treeRmOutdent":"branch","autoGroupOnClose":false,"autoGroupOnClose0Lvl":false,"autoGroupOnCloseMouseOnly":false,"ignoreFoldedParent":false,"showNewGroupConf":true,"sortGroupsFirst":true,"colorizeTabs":false,"colorizeTabsSrc":"domain","colorizeTabsBranches":false,"colorizeTabsBranchesSrc":"url","inheritCustomColor":true,"previewTabs":false,"previewTabsMode":"i","previewTabsPageModeFallback":"w","previewTabsInlineHeight":70,"previewTabsPopupWidth":280,"previewTabsSide":"right","previewTabsDelay":500,"previewTabsFollowMouse":true,"previewTabsWinOffsetY":36,"previewTabsWinOffsetX":6,"previewTabsInPageOffsetY":0,"previewTabsInPageOffsetX":0,"previewTabsCropRight":0,"hideInact":false,"hideFoldedTabs":false,"hideFoldedParent":"none","nativeHighlight":false,"warnOnMultiBookmarkDelete":"collapsed","autoCloseBookmarks":false,"autoRemoveOther":false,"highlightOpenBookmarks":false,"activateOpenBookmarkTab":false,"showBookmarkLen":true,"bookmarksRmUndoNote":true,"loadBookmarksOnDemand":true,"pinOpenedBookmarksFolder":true,"oldBookmarksAfterSave":"ask","loadHistoryOnDemand":true,"fontSize":"m","animations":true,"animationSpeed":"norm","theme":"proton","density":"default","colorScheme":"ff","sidebarCSS":true,"groupCSS":false,"snapNotify":true,"snapExcludePrivate":false,"snapInterval":0,"snapIntervalUnit":"min","snapLimit":0,"snapLimitUnit":"snap","snapAutoExport":false,"snapAutoExportType":"json","snapAutoExportPath":"Sidebery/snapshot-%Y.%M.%D-%h.%m.%s","snapMdFullTree":false,"hScrollAction":"none","onePanelSwitchPerScroll":false,"wheelAccumulationX":true,"wheelAccumulationY":true,"navSwitchPanelsDelay":128,"scrollThroughTabs":"none","scrollThroughVisibleTabs":true,"scrollThroughTabsSkipDiscarded":true,"scrollThroughTabsExceptOverflow":true,"scrollThroughTabsCyclic":false,"scrollThroughTabsScrollArea":0,"autoMenuMultiSel":true,"multipleMiddleClose":false,"longClickDelay":500,"wheelThreshold":false,"wheelThresholdX":10,"wheelThresholdY":60,"tabDoubleClick":"none","tabsSecondClickActPrev":true,"tabsSecondClickActPrevPanelOnly":false,"shiftSelAct":true,"activateOnMouseUp":false,"tabLongLeftClick":"none","tabLongRightClick":"none","tabMiddleClick":"close","tabMiddleClickCtrl":"discard","tabMiddleClickShift":"duplicate","tabCloseMiddleClick":"close","tabsPanelLeftClickAction":"none","tabsPanelDoubleClickAction":"tab","tabsPanelRightClickAction":"menu","tabsPanelMiddleClickAction":"tab","newTabMiddleClickAction":"new_child","bookmarksLeftClickAction":"open_in_act","bookmarksLeftClickActivate":false,"bookmarksLeftClickPos":"default","bookmarksMidClickAction":"open_in_new","bookmarksMidClickActivate":false,"bookmarksMidClickRemove":false,"bookmarksMidClickPos":"default","historyLeftClickAction":"open_in_act","historyLeftClickActivate":false,"historyLeftClickPos":"default","historyMidClickAction":"open_in_new","historyMidClickActivate":false,"historyMidClickPos":"default","syncName":"","syncSaveSettings":false,"syncSaveCtxMenu":false,"syncSaveStyles":false,"syncSaveKeybindings":false,"selectActiveTabFirst":true},"sidebar":{"panels":{"xOyIfdSdcsaM":{"type":2,"id":"xOyIfdSdcsaM","name":"Tabs","color":"toolbar","iconSVG":"icon_tabs","iconIMGSrc":"","iconIMG":"","lockedPanel":false,"skipOnSwitching":false,"noEmpty":false,"newTabCtx":"none","dropTabCtx":"none","moveRules":[],"moveExcludedTo":-1,"bookmarksFolderId":-1,"newTabBtns":[],"srcPanelConfig":null}},"nav":["xOyIfdSdcsaM","add_tp","sp-0","settings"]},"sidebarCSS":"html {\n  --custom-bg: #f5f5f5;\n}\n\nbody {\n  background: var(--custom-bg) !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #navigator-toolbox {\n  padding-top: 3px;\n  padding-bottom: 4px;\n  background: var(--custom-bg) !important;\n  border-bottom: 0 !important;\n}\n\n#nav-bar {\n  background: var(--custom-bg) !important;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: calc(100% - 20px);\n}\n\n/* Ensure icons are centered within the nav-bar */\n#nav-bar > .nav-bar-inner {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #sidebar-box {\n  background: var(--custom-bg) !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #sidebar-splitter {\n  border: none !important;\n  background: transparent !important;\n  width: 1px !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #TabsToolbar {\n  visibility: collapse !important;\n}\n\n#TabsToolbar {\n  background: var(--custom-bg) !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) .titlebar-buttonbox-container {\n  position: absolute;\n  right: 0;\n  top: 9px;\n  display: flex;\n  justify-content: center;\n  width: 110px !important;\n}\n\n.titlebar-button {\n  width: 36px !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #sidebar-header {\n  display: none;\n}\n\n#identity-icon-label {\n  display: none;\n}\n\n#urlbar {\n  left: 50% !important;\n  transform: translateX(-50%);\n  max-width: 960px !important;\n}\n\n#urlbar:not([breakout-extend]) #urlbar-background {\n  background: none !important;\n  background-color: transparent !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #sidebar-box {\n  --uc-sidebar-width: 60px;\n  --uc-sidebar-hover-width: 360px;\n  position: relative;\n  min-width: var(--uc-sidebar-width) !important;\n  width: var(--uc-sidebar-width) !important;\n  max-width: var(--uc-sidebar-width) !important;\n  z-index: 1;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #main-window[sizemode=\"fullscreen\"] #sidebar-box {\n  --uc-sidebar-width: 1px;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #sidebar-splitter {\n  display: none;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #sidebar {\n  min-width: var(--uc-sidebar-width) !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) #sidebar-box:hover > #sidebar {\n  min-width: var(--uc-sidebar-hover-width) !important;\n}\n\nhtml:not([privatebrowsingmode=\"temporary\"]) .sidebar-panel {\n  background-color: transparent !important;\n  color: var(--newtab-text-primary-color) !important;\n}","favHashes":[84250935],"favDomains":{"github.com":{"index":0,"len":56}},"favicons":["data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABoElEQVQ4T4WTTShEYRiFXUkI5WenlGShGDsLQnaSLP0mxcaQ1UwW2CulJgkLNkMpZYmtWCBFmVjI0kJpImIaI9dzpu+bbjfNfHV6f855z7z3znedPN9xXbeW1jDoBS2GviEegT3HcZ68I44tGCwn3wH9flNP7ZLvgwmMvtRPGzBcQrgETVmGvZS0HZikrEGUxhi4ANtgAVSBazMVIL6DJTACOsEKBmGHX2+muDXCDZrT9Iqpi8hfzYZ6PJf6A26VfBZ8gzoZrJHMGIMoovFsj4F+C37SaOZl8EhRb1fFIJbDoAH+wWjOZKC3qZUTDOtl5jzMvCCqBnEZfJJo8FcRk2SODQrgNVOoKIN7kkYz1IfBYQ6DHvhjo4nJYJ0iaBparRuTu/9M0OrvPAEVho/IoJVCF2MQtIMpUy9idCohmjbCgXluPYI9Ae9FGqDbBcKgDAxh8GYMKolx31ab8EFrUAp5DlJgDvxAatXMYQt9B/ZckegqJ/0fUwRCFylfQJAeYlZry1y3T1c9BJcQlzGw1ohryEcRLHt60oXALv1n72Z/P7qlvJxtJjMAAAAASUVORK5CYII="],"ver":"5.2.0","keybindings":{"_execute_sidebar_action":"F1","next_panel":"Alt+Period","prev_panel":"Alt+Comma","new_tab_on_panel":"Ctrl+Space","new_tab_in_group":"Ctrl+Shift+Space","up":"Alt+Up","down":"Alt+Down","up_shift":"Alt+Shift+Up","down_shift":"Alt+Shift+Down","activate":"Alt+Space","reset_selection":"Alt+R"}}
+html {
+  --custom-bg: #f5f5f5;
+}
+
+body {
+  background: var(--custom-bg) !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) #navigator-toolbox {
+  padding-top: 3px;
+  padding-bottom: 4px;
+  background: var(--custom-bg) !important;
+  border-bottom: 0 !important;
+}
+
+#nav-bar {
+  background: var(--custom-bg) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 20px);
+}
+
+/* Ensure icons are centered within the nav-bar */
+#nav-bar > .nav-bar-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+html:not([privatebrowsingmode="temporary"]) #sidebar-box {
+  background: var(--custom-bg) !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) #sidebar-splitter {
+  border: none !important;
+  background: transparent !important;
+  width: 1px !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) #TabsToolbar {
+  visibility: collapse !important;
+}
+
+#TabsToolbar {
+  background: var(--custom-bg) !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) .titlebar-buttonbox-container {
+  position: absolute;
+  right: 0;
+  top: 9px;
+  display: none;
+  justify-content: center;
+  width: 110px !important;
+}
+
+.titlebar-button {
+  width: 36px !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) #sidebar-header {
+  display: none;
+}
+
+#identity-icon-label {
+  display: none;
+}
+
+#urlbar {
+  left: 50% !important;
+  transform: translateX(-50%);
+  max-width: 960px !important;
+}
+
+#urlbar:not([breakout-extend]) #urlbar-background {
+  background: none !important;
+  background-color: transparent !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) #sidebar-box {
+  --uc-sidebar-width: 60px;
+  --uc-sidebar-hover-width: 360px;
+  position: relative;
+  min-width: var(--uc-sidebar-width) !important;
+  width: var(--uc-sidebar-width) !important;
+  max-width: var(--uc-sidebar-width) !important;
+  z-index: 4 !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) #main-window[sizemode="fullscreen"] #sidebar-box {
+  --uc-sidebar-width: 1px;
+}
+
+html:not([privatebrowsingmode="temporary"]) #sidebar-splitter {
+  display: none;
+}
+
+html:not([privatebrowsingmode="temporary"]) #sidebar {
+  min-width: var(--uc-sidebar-width) !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) #sidebar-box:hover > #sidebar {
+  min-width: var(--uc-sidebar-hover-width) !important;
+}
+
+html:not([privatebrowsingmode="temporary"]) .sidebar-panel {
+  background-color: transparent !important;
+  color: var(--newtab-text-primary-color) !important;
+}
